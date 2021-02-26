@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="separador.js"></script>
+</head>
+<body>
+
+    <div id="principal">
+
+        <header>
+            <form>
+                <input
+                type="text"
+                id="caracter"
+                placeholder="Insira o Caracter aqui"
+                onkeyup="pegaCaracter()"
+                >
+            </form>
+        </header>
+
+        <article>
+            <section id= "areaLetras">
+                <form>
+                    <label for="letras">Letra</label><br>
+
+                    <input
+                    type="text"
+                    id="letras"
+                    name = "letras"
+                    disabled = "disabled"
+                    >
+
+                </form>
+            </section>
+
+            <section id="areaNumero">
+                <form>
+                    <label for="numero">Numeros</label><br>
+
+                    <input 
+                    type="text"
+                    id="numero"
+                    name = "numero"
+                    disabled = "disabled"
+                    >
+                </form>
+            </section>
+        </section>
+        <div style="clear: both;"></div>
+    </div>
+
+
+    
+</body>
+</html>

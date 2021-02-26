@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(238, 238, 238);
+}
+
+#principal{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: rgb(92, 130, 255);
+    background:linear-gradient(to top,#71bfff 10%, #053bff 170% ) ;
+    
+    height: 200px;
+    text-align: center;
+    
+}
+
+header input{
+    margin-top: 6%;
+    width: 250px;
+    height: 50px;
+    
+    border: none;
+    border-radius: 5px;
+    
+    font-size: 1.2em;
+    text-align: center;
+}
+
+header input:focus{
+    outline: none !important;
+    box-shadow: 0 0 5px 2px #1a3cb9;
+}
+
+article{
+    margin-top:  30px;
+    border-top: 3px solid #71bfff;
+
+}
+
+#areaLetras, #areaNumero{
+    text-align: center;
+
+    width: 625px;
+    margin-top: 20px;
+}
+
+#areaLetras{
+    float: left;
+}
+
+#areaLetras label, #areaNumero label{
+    color: #232e57;
+
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+#areaNumero{
+    float:right
+}
+
+article input{
+    text-align: center;
+    
+    margin: 10px;
+
+    width: 200px;
+    height: 30px;
+}
